@@ -7,8 +7,14 @@
 
 > The club's website uses a modern architecture of __serveless applications__. For the time being we have the website hosted on __Heroku__'s hosting platform. We use Node.js and HTML.
 
-#### How to ...
+#### Technology
+* Node.js 
+* Bootstrap 
+* Google-Fonts 
+* Heroku
 
+#### How to ...
+ 
 ```bash
 git clone https://github.com/epccVV/web
 cd web
