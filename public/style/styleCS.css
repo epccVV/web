@@ -1,0 +1,66 @@
+body{
+	font-family: Century Gothic;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+#maindiv{
+	width: 100%;
+	height: 700px;
+	background-image:url("../images/binary.jpg");
+	background-attachment:fixed;
+	background-size: cover;
+	color:white;
+}
+#navdiv{
+	opacity:0.85;
+	filter:(opacity = 85);
+}
+#navdiv ul{
+	width: 100%;
+	height: 80px;
+	background: #2f4f4f;
+	line-height:80px;
+	color:white;
+	margin-right: 15px;
+}
+#navdiv ul a{
+	text-decoration:none;
+	color:white;
+	padding:20px;
+}
+#navdiv ul li{
+	list-style-type: none;
+	display:inline-table;
+	float:right;
+}
+#navdiv ul li:hover{
+	background:#1F1919;
+	transition:all 0.40s;
+}
+#navdiv h1{
+	width:200px;
+	float:left;
+	cursor: pointer;
+	margin-left: 15px;
+}
+#logo{
+  height: 70px;
+  vertical-align: middle;
+}
+#navbar a.active{
+	background-color: #4CAF50;
+	color:white;
+}
+.content{
+	padding:16px;
+}
+.sticky{
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+.sticky + .content{
+	padding-top: 60px;
+}
