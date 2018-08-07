@@ -1,6 +1,7 @@
 body{
 	font-family: Century Gothic;
 	background-image:url("../images/binary.jpg");
+	background-repeat: no-repeat;
 }
 *{
 	padding:0px;
