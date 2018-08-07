@@ -1,5 +1,6 @@
 body{
 	font-family: Century Gothic;
+	background-image:url("../images/binary.jpg");
 }
 *{
 	padding:0px;
@@ -8,7 +9,6 @@ body{
 #maindiv{
 	width: 100%;
 	height: 700px;
-	background-image:url("../images/binary.jpg");
 	background-attachment:fixed;
 	background-size: cover;
 	color:white;
@@ -20,7 +20,7 @@ body{
 #navdiv ul{
 	width: 100%;
 	height: 80px;
-	background: #2f4f4f;
+	background: #abb8b8;
 	line-height:80px;
 	color:white;
 	margin-right: 15px;
